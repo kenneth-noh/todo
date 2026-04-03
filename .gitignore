@@ -26,6 +26,10 @@ dist-ssr
 # Cloudflare
 .wrangler
 
+# Environment variables (contains secrets)
+.env
+.env.*
+
 # Capacitor (generated)
 android
 ios

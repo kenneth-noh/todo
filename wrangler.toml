@@ -7,3 +7,9 @@ pages_build_output_dir = "dist"
 binding = "DB"
 database_name = "hoya-todo-db"
 database_id = "cd69bfe5-8345-4829-afcb-1cb35b147ad2"
+
+# Google OAuth - set these in Cloudflare Pages dashboard (Settings > Environment variables)
+# or locally in .env file
+# [vars]
+# GOOGLE_CLIENT_ID = ""
+# GOOGLE_CLIENT_SECRET = ""

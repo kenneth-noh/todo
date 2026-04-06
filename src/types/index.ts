@@ -35,4 +35,11 @@ export interface Memo {
   created_at: string
 }
 
+export interface User {
+  id: number
+  email: string
+  name: string | null
+  avatar: string | null
+}
+
 export type PeriodFilter = 'today' | 'this_week' | 'next_week' | 'this_month' | ''
